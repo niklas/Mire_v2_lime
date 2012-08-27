@@ -422,15 +422,15 @@ GtkComboBox .separator {
 
 GtkComboBox .entry,
 GtkComboBox .entry:nth-child(first) {
-    border-width: 1;
-    border-radius: 2;
+    border-width: 1px;
+    border-radius: 2px;
     border-color: @black;
 }
 
 /* for RTL languages */
 GtkComboBox .entry:nth-child(last) {
-    border-width: 1;
-    border-radius: 2;
+    border-width: 1px;
+    border-radius: 2px;
     border-image-width: 2 2 2 0;
 }
 
@@ -823,7 +823,7 @@ GtkImage:insensitive {
 
 .progressbar.vertical {
     background-image: -gtk-gradient (linear,
-                                     left top, right top,,
+                                     left top, right top,
                                      from (@lime),
                                      to (@green));
 	border-style: solid;
@@ -1172,8 +1172,6 @@ border-style: solid;
     /*background-image: url ("img/bar.png");*/
     background-color: @slate;
     
-}
-
 
 
     /*icon-shadow: 0 1 alpha (@white, 0.9);*/
